@@ -1,3 +1,5 @@
+package practice.others;
+
 import java.util.Scanner;
 
 public class ReverseArray_P {
