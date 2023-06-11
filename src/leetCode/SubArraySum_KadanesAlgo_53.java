@@ -1,3 +1,5 @@
+package leetCode;
+
 public class SubArraySum_KadanesAlgo_53 {
     // not work for array having all -ve elements
     public int maxSubArray(int[] nums) {

@@ -1,3 +1,5 @@
+package leetCode;
+
 public class Pow_x_n_50 {
     public double myPow(double x, int n) {
         if(n<0){

@@ -1,3 +1,5 @@
+package leetCode;
+
 public class Search2DMatrix_74 {
     public boolean searchMatrix(int[][] matrix, int target) {
         int row = 0;

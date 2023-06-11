@@ -1,3 +1,5 @@
+package leetCode;
+
 public class SearchInsertPosition_35 {
     public int searchInsert(int[] nums, int target) {
         int low =0;

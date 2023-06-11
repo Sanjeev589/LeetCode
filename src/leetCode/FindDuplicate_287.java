@@ -1,3 +1,5 @@
+package leetCode;
+
 public class FindDuplicate_287 {
     public int findDuplicate(int[] nums) {
         int slow =  nums[0];

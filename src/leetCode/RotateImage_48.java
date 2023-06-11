@@ -1,3 +1,5 @@
+package leetCode;
+
 public class RotateImage_48 {
     public void rotate(int[][] matrix) {
         for(int i=0;i<matrix.length;i++){
