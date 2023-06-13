@@ -20,7 +20,8 @@ package leetCode;
         For Eg , arr[]={1,2,3,4,5,6,7} , k=2*/
 public class RotateArray_189 {
     public void rotate(int[] nums, int k) {
-
+        if(nums.length > k)
+            k = k%nums.length;
         reverse(nums, nums.length-k, nums.length -1);
         reverse(nums, 0, nums.length-k-1);
         reverse(nums, 0, nums.length-1);
